@@ -175,7 +175,7 @@ class User:
         self.scrammer.name = self.HUD.software.name
 
     def manage(self, url):
-        """This function is a applicacion console. If user make 3 warnings, app is automaticaly turn off"""
+        """This function is a applicacion console. If user make 3 warnings, app will automaticaly turn off"""
 
         self.url = url 
         Warnings = 0
@@ -255,6 +255,7 @@ class Application:
     @staticmethod
     def Help(Class):
         print(help(Class))
+
 
 if __name__ == "__main__":
     try:
